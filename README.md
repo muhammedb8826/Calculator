@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Calculator <a name="about-project"></a>
 
--In this project I am going to build a To-Do List App: It is useful as Writing your daily tasks on a list can help you increase productivity and decrease stress. To-do lists enable you to segment your goals into achievable activities and complete large projects by breaking them into smaller assignments. Recording tasks can allow you to better manage your time and encourages you to achieve more throughout your day.
+- In this project I am going to build a Calculator App.
 
 **Calculator App** is a static page that has been
 
