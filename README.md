@@ -129,7 +129,7 @@ After you're finished please remove all the comments and instructions!
 
 > Link to github repository.
 
-- [To-Do list app](https://github.com/muhammedb8826/Calculator)
+- [Calculator](https://github.com/muhammedb8826/Calculator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +156,7 @@ Clone this repository to your desired folder:
 
 git clone https://github.com/muhammedb8826/Calculator.git
 
-cd todo-list-app
+cd Calculator
 
 ### Install
 
