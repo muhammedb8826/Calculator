@@ -32,10 +32,6 @@
   background-color: #f5913e;
 }
 
-.operator:hover {
-  background-color: #f68528;
-}
-
 .output {
   grid-column: 1 / -1;
   background-color: #858694;
