@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.App {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .calculator-grid {
   display: grid;
   margin-top: 2rem;
@@ -52,4 +58,11 @@
 .output .current-operand {
   color: #fff;
   font-size: 2rem;
+}
+
+.fetched-data {
+  width: 40%;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  list-style: none;
 }

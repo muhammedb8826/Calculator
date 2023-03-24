@@ -13,7 +13,7 @@ function Quote() {
         const res = await fetch(url, {
           headers: {
             'Content-Type': 'application/json',
-            'x-api-key': 'XnPOlsunLwSVKUuyg2IqIw==Qdbj0Zm3ufHz0zZW',
+            'x-api-key': 'XZBOGakGnoeKaEBsEJ2C0g==SlYB0NPsstmZBa5G',
           },
         });
         const json = await res.json();
@@ -31,12 +31,10 @@ function Quote() {
   if (isLoading) return <div>Loading...</div>;
 
   return (
-    <ul>
+    <ul className="fetched-data">
       <li>
-        {`"${data.quote}"`}
-        {' '}
-        by
-        {' '}
+        {data.quote}
+        {' - '}
         {data.author}
       </li>
     </ul>
