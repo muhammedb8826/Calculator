@@ -17,7 +17,6 @@ function Quote() {
           },
         });
         const json = await res.json();
-        console.log(json[0]);
         setData(json[0]);
       } catch (error) {
         setHasError(true);
