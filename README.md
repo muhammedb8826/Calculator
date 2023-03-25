@@ -125,11 +125,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon!
-
-> Link to github repository.
-
-- [Calculator](https://github.com/muhammedb8826/Calculator)
+ > Coming soon!
+ 
+ Link to github repository. [Calculator](https://github.com/muhammedb8826/Calculator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,52 +135,51 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
-git clone https://github.com/muhammedb8826/Calculator.git
 
 ### Prerequisites
 
 - NodeJS
 - Browser
 - npm
-- webpack
 
-In order to run this project you need:
+To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-git clone https://github.com/muhammedb8826/Calculator.git
-
-cd Calculator
+```sh
+  cd your-folder
+  git clone https://github.com/muhammedb8826/Calculator.git
+```
 
 ### Install
 
-Install project dependencies in this project with:
+Install this project with:
 
-npm install
+```sh
+  cd Calculator
+  npm install
+```
 
 ### Usage
 
-To run the project, use npm start and open the project with live server and visit http://localhost:3000/
+To run the project, execute the following command:
 
-Open in browser
-http://localhost:3000/
+```sh
+  npm start
+```
 
 ### Run tests
 
-After pushing the changes on github, merge your pull request and let github action process changes.
+To run tests, run the following command:
+
+```sh
+  npm test
+```
+
 
 ### Deployment
 
-Check for the tests when you generate a pull request and fix errors, if any.
-For stylelint errors run:<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code> for automatic fix and for eslint 
-run:    ```
-        npx eslint "**/*.{js,jsx}"
-       ```
-   
+- This project is not deployed yet
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
