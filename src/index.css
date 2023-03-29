@@ -37,8 +37,9 @@ nav ul {
   padding: 0.25rem;
 }
 
-.nav li .active {
+.nav li a.active {
   background-color: #555;
+  width: 100%;
 }
 
 .nav li:hover {
