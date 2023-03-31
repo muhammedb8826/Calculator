@@ -1,5 +1,9 @@
+import renderer from 'react-test-renderer';
 import calculate from './logic/calculate';
 import operate from './logic/operate';
+import Calculator from './Components/Calculator';
+import Home from './Components/Home';
+import Quote from './Components/Quote';
 
 describe('Test for calculate', () => {
   it('4 + 4 = 8', () => {
@@ -60,5 +64,26 @@ describe('Test for operate', () => {
   it('4 % 5 equals 4', () => {
     const result = operate(4, 5, '%');
     expect(result).toBe('4');
+  });
+});
+
+describe('Components render Correctly', () => {
+  it('Calculator renders correctly', () => {
+    const tree = renderer
+      .create(<Calculator />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('Home renders correctly', () => {
+    const tree = renderer
+      .create(<Home />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('Quote renders correctly', () => {
+    const tree = renderer
+      .create(<Quote />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });
