@@ -125,7 +125,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- > Coming soon!
+ You can see the project here [Click this link to see live](https://math-magician-satc.onrender.com/)
  
  Link to github repository. [Calculator](https://github.com/muhammedb8826/Calculator)
 
