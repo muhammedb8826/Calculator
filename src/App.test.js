@@ -1,9 +1,9 @@
 import renderer from 'react-test-renderer';
 import calculate from './logic/calculate';
 import operate from './logic/operate';
-import Calculator from './Components/Calculator';
-import Home from './Components/Home';
-import Quote from './Components/Quote';
+import Calculator from './components/Calculator';
+import Home from './components/Home';
+import Quote from './components/Quote';
 
 describe('Test for calculate', () => {
   it('4 + 4 = 8', () => {
